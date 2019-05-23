@@ -7,23 +7,23 @@ h1, h2 {
 }
 
 body {
+    margin: 0px;
     background-color: #ffffff;
-    position: relative;
+    /* position: relative; */
 }
 
 header {
     height: 80px;
     background-color: #ffffff;
-    position: relative;
+    /* position: relative; */
     border: 2px solid #cccccc;
 }
 
 .top-bar {
-    background-color: lightsalmon;
-    position: absolute;
     margin: 0 auto;
+    height: 80px;
     width: 960px;
-
+    position: relative;
 }
 
 .name {
@@ -51,10 +51,10 @@ a:any-link {
 .main-content {
     width: 960px;
     margin: 0 auto;
-    padding: 50px;
     background-color: beige;
     position: relative;
     border: 2px solid #dddddd;
+    top: 30px;
 }
 
 h2 {
@@ -77,6 +77,12 @@ footer {
     left: 0px;
     bottom: 0px;
     text-align: center;
+}
+
+.footer-text {
+    font-size: 14px;
+    margin: 0 auto;
+    color: #777777;
 }
 
 input, textarea {
