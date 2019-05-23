@@ -8,14 +8,12 @@ h1, h2 {
 
 body {
     margin: 0px;
-    background-color: #ffffff;
-    /* position: relative; */
+    background-color: lightslategray;
 }
 
 header {
     height: 80px;
     background-color: #ffffff;
-    /* position: relative; */
     border: 2px solid #cccccc;
 }
 
@@ -51,15 +49,19 @@ a:any-link {
 .main-content {
     width: 960px;
     margin: 0 auto;
-    background-color: beige;
+    background-color: #ffffff;
     position: relative;
     border: 2px solid #dddddd;
     top: 30px;
+    box-sizing: border-box;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 h2 {
     color: #4aaaa5;
     border-bottom: 2px solid black;
+    padding-bottom: 20px;
 }
 
 p {
@@ -68,15 +70,17 @@ p {
     color: #777777;
 }
 
+img {
+    float: left;
+    margin-right: 20px;
+}
+
+
 footer {
     background-color: #666666;
     border-top: 4px solid #4aaaa5;
-    position: fixed;
-    width: 100%;
-    height: 50px;
-    left: 0px;
-    bottom: 0px;
     text-align: center;
+    margin-top: 175px;
 }
 
 .footer-text {
